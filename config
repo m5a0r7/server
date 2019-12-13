@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/m5a0r7/telegram
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = https://github.com/m5a0r7/telegram
+	merge = refs/heads/master
